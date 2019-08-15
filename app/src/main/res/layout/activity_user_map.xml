@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@android:color/holo_red_light"
+        android:shadowColor="@android:color/background_dark"
+        android:text="Logout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/settings"
+        android:text="Settings"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="684dp"
+        tools:context=".UserMapActivity" />
+
+    <LinearLayout
+        android:id="@+id/fram_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/apreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <Button
+            android:id="@+id/anreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="A-" />
+        <Button
+            android:id="@+id/bpreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <Button
+            android:id="@+id/bnreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="B-" />
+
+        <Button
+            android:id="@+id/abpreq"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="AB+" />
+
+        <Button
+            android:id="@+id/abnreq"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="AB-" />
+
+        <Button
+            android:id="@+id/opreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="O+" />
+
+        <Button
+            android:id="@+id/onreq"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="O-" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+

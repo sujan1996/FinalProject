@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectFinal</string>
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O-</item>
+        <item>AB-</item>
+
+    </string-array>
+    <string name="title_activity_user_map">Map</string>
+</resources>
